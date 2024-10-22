@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/656faedde0f5be0412e2e421_DIS%20Gifting%20Moment%20Blog%20Banner.png' property='og:image'>
+    <title>Discord Gift</title>
+</head>
+<body>
+    <div id="card">
+        <img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/656faedde0f5be0412e2e421_DIS%20Gifting%20Moment%20Blog%20Banner.png" alt="" srcset="">
+        <div id="container">
+            <div id="left">
+                <h4>A friend blessed you with the Nitro Experience!</h4>
+                <p>Activate your <strong>1-month</strong> Nitro and enjoy tons of super cool features</p>
+            </div>
+            <div id="right">
+                <div id="button">Activate Nitro</div>
+            </div>
+        </div>
+    </div>
+    <style>
+        * {
+            margin: 0 auto;
+            font-family: Roboto;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #36393E;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #card{
+            background-color: #1E2124;
+            width: 50vw;
+            border-radius: 3px;
+            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.568);
+        }
+
+        #container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        h4{
+            margin-bottom: 10px;
+        }
+
+        p{
+            color:#878c94;
+        }
+
+        #left{
+            color: white;
+            font-size: 1.3rem;
+            justify-self: flex-start;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 3px 3px 0 0;
+        }
+
+        #button{
+            background-color: #43B581;
+            font-size: 1.1rem;
+            padding: 5px 10px;
+            height: 40px;
+            width: 100px;
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            transition: 0.1s all;
+            user-select: none;
+        }
+
+        #button:hover{
+            background-color: #3b9e72;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        const button =  document.getElementById("button");
+        const paragraph = document.querySelector("p");
+        const heading = document.querySelector("h4");
+        button.addEventListener("click", () => {
+            button.style.backgroundColor = "#ed5249"; 
+            button.textContent = "Hacked :)";
+            paragraph.textContent = "Your data would have been compromised";
+            heading.textContent = "Hopefully, this website is not harmful";
+        });
+    </script>
+</body>
+</html>
