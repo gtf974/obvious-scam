@@ -9,6 +9,7 @@ The meta tags use a discord image to make the link appear official.
 
 ```html
     <meta content='https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/656faedde0f5be0412e2e421_DIS%20Gifting%20Moment%20Blog%20Banner.png' property='og:image'>
+    <link rel="icon" href="https://www.svgrepo.com/show/353655/discord-icon.svg">
     <title>Discord Gift</title>
 ```
 
